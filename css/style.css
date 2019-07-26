@@ -1,0 +1,398 @@
+/* FONT FACE */
+
+/* STYLES START */
+a {
+    color: white;
+    text-decoration: none;
+}
+p{  
+    padding: 5px 0;
+}
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+header img{
+    height: 150px;
+    width: 160px;
+}
+/* BODY */
+body{
+    background: 
+        url("../img/background.png")
+        center
+        no-repeat
+        fixed;
+    background-size: cover;
+    height: 100vh;
+    cursor: default;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+section {
+    width: 600px;
+    margin-bottom: 50px;
+}
+/* ACCUEIL */
+main{
+    display: flex;
+    justify-content: center;
+}
+.introTitle,
+.introExplain,
+.introGoodLuck,
+.registerSection,
+h4,
+h2,
+h1:not(.welcome),
+#intro p,
+#tavern p,
+#forest p,
+#plains p,
+#cave p,
+#harbor p,
+#jungle p,
+#swamp p,
+#castle p,
+#creditGame p {
+    border: 2px solid black;
+    background-color: #e1ad6d;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 15px 0 15px 0;
+}
+.introTitle, .introGoodLuck {
+    padding: 0;
+    margin: 10px 0;
+}
+.table {
+    border: 1px solid black;
+}
+.table span {
+    padding: 10px 0;
+    width: 150px;
+}
+.sup{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.btnPlay,
+.buttonDeco,
+.buttonStart {
+    align-items: center;
+    position: relative;
+    top: -25px;
+}
+.play,
+.connection,
+.disconnect,
+.start {
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #b0e46a;
+    transition: all 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    box-shadow: 1px 1px 2px black;
+    color:black;
+    width: 10%
+}
+.connection {
+    width: 100%;
+}
+.disconnect,
+.start {
+    width: 23%;
+}
+.buttonStart {
+    top: 0;
+}
+/* REGISTER */
+.disconnect, .start{
+    position: relative;
+}
+form {
+    align-items: center;
+    padding: 15px;
+}
+form input {
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+.pseudoPlace{
+    display: flex;
+    margin-bottom: 15px;
+}
+.pseudoWritting{
+    padding:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+}
+.welcome span {
+    color: darkgreen;
+    text-shadow: 1px 1px 2px #535353;
+}
+.buttonDeco {
+    display: flex;
+    justify-content: center;
+}
+.introDiv{
+    display: flex;
+}
+.welcome {
+    margin-top:25px;
+    margin-bottom:25px;
+    text-align: center;
+}
+.introText{
+    text-align: center;
+    font-size: 15px;
+}
+.buttonStart {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.start{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    border:1px solid black;
+    padding:8px 35px;
+    border-radius: 20px;
+    background-color: #b0e46a;
+    bottom: -30px;
+    text-transform: uppercase;
+}
+/* STORY */
+.bgStory {
+    background: 
+        url("../img/bgStory.gif")
+        center
+        no-repeat
+        fixed;
+    background-size: cover;
+    height: 100vh;
+}
+#story {
+    margin-bottom: 25px;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+#health, #attack, #xp, #potion {
+    padding: 5px;
+    width: 120px;
+    border: 1px solid black;
+    background-color: #8f7e4f;
+    box-shadow: inset 0px 0px 7px 0px black;
+}
+/* BUTTONS */
+button {
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #8f7e4f;
+    transition: all 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+    position: relative;
+    overflow: hidden;
+    color: white;
+    margin: 15px;
+    z-index: 0;
+    box-shadow: 1px 1px 2px black;
+    margin: auto;
+}
+button:after {
+    transition: all 0.3s ease-in-out;
+    content: "";
+    display: block;
+    background-color:#524632;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 101%;
+    transform: translateY(-100%);
+    z-index: -1;
+}
+button:hover:after {
+    transform: translateY(0);
+}
+button:hover {
+    color: white;
+}
+button#fightForest,
+button#fightPlains,
+button#fightCave,
+button#fightCaveBoss,
+button#fightHarbor,
+button#fightHarborBoss,
+button#fightJungle,
+button#fightJungleBoss,
+button#fightSwamp,
+button#fightSwampBoss,
+button#fightCastle,
+button#defeatBtnsailorBoss {
+    background-color: #9c2724;
+}
+button#fightForest:after,
+button#fightPlains:after,
+button#fightCave:after,
+button#fightCaveBoss:after,
+button#fightHarbor:after,
+button#fightHarborBoss:after,
+button#fightJungle:after,
+button#fightJungleBoss:after,
+button#fightSwamp:after,
+button#fightSwampBoss:after,
+button#fightCastle:after,
+button#defeatBtnsailorBoss:after {
+    background-color: #6a041d;
+}
+button.buttonDefeatBoss {
+    background-color: #24669c;
+}
+button.buttonDefeatBoss:after {
+    background-color: #123653;
+}
+.btnAttack {
+    margin-bottom: 10px;
+}
+.inform {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+/* Credits */
+.creditSection{
+    display: flex;
+    flex-direction: column;
+}
+
+#backgroundCredit {
+    background: url(/img/backgroundCredit.png)
+    no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.buttonRestart {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.restart{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    border:1px solid black;
+    padding:8px 35px;
+    margin-top: 35px;
+    border-radius: 20px;
+    background-color: #b0e46a;
+}
+.divCongrats {
+    margin-top: 250px;
+    flex-direction: column;
+    display: flex;
+}
+.congrats {
+    color:white;
+    text-align: center;
+}
+.noDisplay {
+    display: none;
+}
+/* ANIMATION */
+/* TEXTES */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(0, -20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+.fadeIn {
+    opacity: 0;
+    transition: .3s;
+    animation: fadeIn 1s cubic-bezier(.68,-0.55,.27,1.55) forwards;
+}
+.fadeIn.txtOne {
+    animation-delay: 0.5s;
+}
+.fadeIn.txtTwo {
+    animation-delay: 2s;
+}
+.fadeIn.txtThree {
+    animation-delay: 3.5s;
+}
+.fadeIn.txtFour {
+    animation-delay: 5s;
+}
+.fadeIn.txtFive {
+    animation-delay: 6.5s;
+}
+.fadeIn.txtSix {
+    animation-delay: 8s;
+}
+/* BOUTONS */
+@keyframes fadeInBtn {
+    0% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.fadeInBtn {
+    opacity: 0;
+    transition: .3s;
+    animation: fadeInBtn 1s cubic-bezier(.68,-0.55,.27,1.55) forwards;
+}
+.fadeInBtn.btnOne {
+    animation-delay: 0.5s;
+}
+.fadeInBtn.btnTwo {
+    animation-delay: 2s;
+}
+.fadeInBtn.btnThree {
+    animation-delay: 3.5s;
+}
+.fadeInBtn.btnFour {
+    animation-delay: 5s;
+}
+.fadeInBtn.btnFive {
+    animation-delay: 6.5s;
+}
+.fadeInBtn.btnSix {
+    animation-delay: 8s;
+}
