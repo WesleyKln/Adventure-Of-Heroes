@@ -1,3 +1,4 @@
+![Screenshot_1](https://user-images.githubusercontent.com/42122563/96113525-929c9600-0ee4-11eb-9138-ea1d37d9a6e4.png)
 # Adventure Of Heroes
 
 Bienvenue dans Adventure Of Heroes, un jeu dont vous êtes le héros. Cette histoire avec plusieurs voies, plusieurs monstres se base sur la mécanique des livres dont vous êtes le héros.
@@ -26,3 +27,6 @@ Vous commencez votre aventure à la Taverne. Vous aurez le choix entre la Plaine
 
   #### Base de données :
     Importer le Dump de la bdd en indiquant ces informations (dbname : RogueLike ; User : Wes ; Password : 19851985)
+
+### Bonne chance !
+![Screenshot_3](https://user-images.githubusercontent.com/42122563/96113528-93352c80-0ee4-11eb-913a-5c701502d4c9.png)
