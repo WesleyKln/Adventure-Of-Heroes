@@ -24,5 +24,5 @@ Vous commencez votre aventure à la Taverne. Vous aurez le choix entre la Plaine
   #### Ce projet a été créé avec 3 autres camarades en 5 jours.
     Dans ce projet, je me suis occupé d'une partie du CRUD (Inscription et connection / Déconnection), du CSS et des AddEventListener (JS).
 
-  #### Le projet est en ligne :
-    Le projet est en ligne à cette adresse -> https://adventure-of-heroes.wesleyklein.fr/
+  #### Base de données :
+    Importer le Dump de la bdd en indiquant ces informations (dbname : RogueLike ; User : Wes ; Password : 19851985)
